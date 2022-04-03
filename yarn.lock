@@ -7543,11 +7543,6 @@
   dependencies:
     "is-plain-obj" "^1.0.0"
 
-"sortablejs@1.10.2":
-  "integrity" "sha512-YkPGufevysvfwn5rfdlGyrGjt7/CRHwvRPogD/lC+TnvcN29jDpCifKP+rBqf+LRldfXSTh+0CGLcSg0VIxq3A=="
-  "resolved" "https://registry.npmjs.org/sortablejs/-/sortablejs-1.10.2.tgz"
-  "version" "1.10.2"
-
 "source-list-map@^2.0.0":
   "integrity" "sha512-qnQ7gVMxGNxsiL4lEuJwe/To8UnK7fAnmbGEEH8RpLouuKbeEm0lhbQVFIrNSuB+G7tVrAlVsZgETT5nljf+Iw=="
   "resolved" "https://registry.npmjs.org/source-list-map/-/source-list-map-2.0.1.tgz"
@@ -8486,7 +8481,7 @@
   "resolved" "https://registry.npmjs.org/vue-template-es2015-compiler/-/vue-template-es2015-compiler-1.9.1.tgz"
   "version" "1.9.1"
 
-"vue@^2 || ^3.0.0-0", "vue@^3.0.0", "vue@^3.0.0-beta.10", "vue@3.0.2":
+"vue@^2 || ^3.0.0-0", "vue@^3.0.0", "vue@3.0.2":
   "integrity" "sha512-ciKFjutKRs+2Vbvgrist1oDd5wZQqtOel/K//ku54zLbf8tcTV+XbyAfanTHcTkML9CUj09vnC+y+5uaOz2/9g=="
   "resolved" "https://registry.npmjs.org/vue/-/vue-3.0.2.tgz"
   "version" "3.0.2"
@@ -8494,18 +8489,6 @@
     "@vue/compiler-dom" "3.0.2"
     "@vue/runtime-dom" "3.0.2"
     "@vue/shared" "3.0.2"
-
-"vuedraggable@^2.24.3":
-  "integrity" "sha512-6/HDXi92GzB+Hcs9fC6PAAozK1RLt1ewPTLjK0anTYguXLAeySDmcnqE8IC0xa7shvSzRjQXq3/+dsZ7ETGF3g=="
-  "resolved" "https://registry.npmjs.org/vuedraggable/-/vuedraggable-2.24.3.tgz"
-  "version" "2.24.3"
-  dependencies:
-    "sortablejs" "1.10.2"
-
-"vuex@^4.0.0-0":
-  "integrity" "sha512-zgXVCQygF1Sm7ezyudEEMynoV2PBxZdcjE12D0BY1xIKZMrA7GFP6xqADTEAzwfVemXboExJ+/KThfxJFtM/5w=="
-  "resolved" "https://registry.npmjs.org/vuex/-/vuex-4.0.0-rc.1.tgz"
-  "version" "4.0.0-rc.1"
 
 "watchpack@^1.7.4":
   "integrity" "sha512-aWAgTW4MoSJzZPAicljkO1hsi1oKj/RRq/OJQh2PKI2UKL04c2Bs+MBOB+BBABHTXJpf9mCwHN7ANCvYsvY2sg=="
