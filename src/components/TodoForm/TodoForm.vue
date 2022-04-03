@@ -1,6 +1,5 @@
 <script>
 import { defineComponent, inject } from 'vue'
-// import { useInput } from '../../hooks'
 
 export default defineComponent({
   name: 'TodoForm',
