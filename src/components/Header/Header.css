@@ -1,0 +1,14 @@
+.header {
+  font-family: 'Inter-Bold';
+  font-style: bold;
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 29px;
+  letter-spacing: -0.02em;
+  color: #202427;
+}
+
+@font-face {
+  font-family: 'Inter-Bold';
+  src: url(../../assets/fonts/Inter-Bold.ttf);
+}

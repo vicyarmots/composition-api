@@ -1,0 +1,10 @@
+.todo-page__container {
+  width: 730px;
+  height: 719px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-direction: column;
+  background: #ffffff;
+  border-radius: 24px;
+}

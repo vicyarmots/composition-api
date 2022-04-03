@@ -1,0 +1,23 @@
+.footer {
+  margin-top: 10rem;
+  width: 290px;
+  height: 24px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.footer .check-mark {
+  width: 24px;
+  height: 24px;
+}
+
+.footer .check-mark-status {
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 13px;
+  line-height: 16px;
+  margin: 0;
+  color: #8f99a3;
+}

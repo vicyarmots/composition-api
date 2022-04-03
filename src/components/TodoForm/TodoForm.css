@@ -1,0 +1,44 @@
+.todo-form {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 400px;
+  height: 40px;
+}
+
+.todo-form__input {
+  width: 317px;
+  height: 40px;
+  padding: 15px;
+  outline: none;
+  background: #ffffff;
+  font-family: 'Inter';
+  border: 1px solid #c7ccd1;
+  box-sizing: border-box;
+  border-radius: 8px;
+  font-family: 'Inter';
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 16px;
+}
+
+.btn-submit {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 77px;
+  height: 40px;
+  font-family: 'Inter';
+  background: #2578f4;
+  border-radius: 8px;
+  font-size: 13px;
+  color: white;
+  margin-left: 10px;
+  border: none;
+}
+
+@font-face {
+  font-family: 'Inter';
+  src: url(../../assets/fonts/Inter-Light.ttf);
+}

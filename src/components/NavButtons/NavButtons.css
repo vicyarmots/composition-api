@@ -1,0 +1,31 @@
+.nav-btn-container {
+  width: 410px;
+  height: 32px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.nav-btn-container__btn-filter {
+  display: flex;
+  align-items: center;
+  height: 32px;
+  width: 194px;
+}
+
+.nav-btn-container button {
+  font-size: 13px;
+  border: none;
+  height: inherit;
+  border-radius: 10px;
+  flex-grow: 1;
+  border-radius: 8px;
+  color: black;
+  background: none;
+  outline: none;
+}
+
+.nav-btn-container button:active {
+  background: #2578f4;
+  color: white;
+}

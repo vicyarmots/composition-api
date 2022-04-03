@@ -1,0 +1,44 @@
+<div class="nav-btn-container">
+  <button
+    v-if="state.todoList.length"
+    @click="completeAllTodo"
+    class="btn-check-all"
+  >
+    Check All
+  </button>
+  <div class="nav-btn-container__btn-filter">
+    <button
+      @click="handleFilterButton('all')"
+      :style="{
+          background: state.filter === 'all' ? '#2578F4' : 'none',
+          color: state.filter === 'all' ? 'white' : 'black'
+        }"
+    >
+      All
+    </button>
+    <button
+      v-if="isCompleted"
+      @click="handleFilterButton('active')"
+      :style="{
+          background: state.filter === 'active' ? '#2578F4' : 'none',
+          color: state.filter === 'active' ? 'white' : 'black'
+        }"
+    >
+      Active
+    </button>
+    <button
+      v-if="isCompleted"
+      @click="handleFilterButton('completed')"
+      :style="{
+          background: state.filter === 'completed' ? '#2578F4' : 'none',
+          color: state.filter === 'completed' ? 'white' : 'black'
+        }"
+    >
+      Completed
+    </button>
+  </div>
+
+  <button v-if="isCompleted" @click="clearCompletedTodo">
+    Clear Completed
+  </button>
+</div>

@@ -1,0 +1,11 @@
+<form @submit.prevent="addTodo" class="todo-form">
+  <input
+    type="text"
+    placeholder="Add new todo..."
+    v-model.trim="state.todoTitle"
+    autocomplete="off"
+    class="todo-form__input"
+    :maxlength="30"
+  />
+  <button v-if="state.todoTitle.length" class="btn-submit">Submit</button>
+</form>

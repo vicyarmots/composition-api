@@ -1,0 +1,60 @@
+<div class="todo-list">
+  <div class="todo-list__item" v-for="todo in getTodoByStatus" :key="todo.id">
+    <div v-if="!todo.editing" class="todo-list__item-state">
+      <input
+        type="checkbox"
+        @change="completeTodo(todo.id)"
+        :checked="todo.completed"
+        class="checkbox-complete"
+      />
+      <p
+        class="todo-list__item-title"
+        :class="
+            todo.completed ? 'status-completed__item' : 'status-active__item'
+          "
+      >
+        {{ todo.title }}
+      </p>
+    </div>
+    <input
+      type="text"
+      v-if="todo.editing"
+      v-model="todo.title"
+      :key="todo.id"
+      class="editing-input"
+    />
+
+    <button
+      v-if="!todo.editing"
+      @click="editTodo(todo.id, todo.title)"
+      class="btn-edit"
+    >
+      <img
+        :src="require('../../assets/icons/edit-icon.png')"
+        alt=""
+        srcset=""
+        class="edit-icon"
+      />
+    </button>
+    <button
+      v-if="!todo.editing"
+      @click="deleteTodo(todo.id)"
+      class="btn-delete"
+    >
+      <img
+        :src="require('../../assets/icons/delete-icon.png')"
+        alt=""
+        srcset=""
+        class="delete-icon"
+      />
+    </button>
+    <button v-else @click="completeEditTodo(todo.id)" class="btn-complete">
+      <img
+        :src="require('../../assets/icons/complete-icon.png')"
+        alt=""
+        srcset=""
+        class="complete-icon"
+      />
+    </button>
+  </div>
+</div>

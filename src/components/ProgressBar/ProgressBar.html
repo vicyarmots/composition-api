@@ -1,0 +1,26 @@
+<div class="progress-bar">
+  <div class="progress-bar__completed">
+    <p class="progress-bar__completed-amount">
+      {{ getCompletedStatus.length }} tasks
+    </p>
+    <p class="progress-bar__completed-title">Completed</p>
+    <div class="progress-bar__completed-bar">
+      <div
+        class="progress-bar__line"
+        :style="{ width: `${getCompletedBar}%`, background: '#5d5fef' }"
+      ></div>
+    </div>
+  </div>
+  <div class="progress-bar__active">
+    <p class="progress-bar__active-amount">
+      {{ getActiveStatus.length }} tasks
+    </p>
+    <p class="progress-bar__active-title">To be finished</p>
+    <div class="progress-bar__active-bar">
+      <div
+        class="progress-bar__line"
+        :style="{ width: `${getActiveBar}%`, background: '#ef5da8' }"
+      ></div>
+    </div>
+  </div>
+</div>
